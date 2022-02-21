@@ -1,0 +1,135 @@
+:root {
+  --biru: #22a4cf;
+}
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background: whitesmoke;
+  height: 100vh;
+}
+
+/* menu */
+a {
+  text-decoration: none;
+  color: #000;
+}
+nav {
+  background: #fff;
+  padding: 1.5rem;
+  align-items: center;
+  box-shadow: 0.1rem 0 0.5rem rgba(0, 0, 0, 0.3);
+  padding-bottom: 3rem;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a{
+  padding: .3rem .5rem;
+}
+nav ul li a:hover{
+  background: var(--biru);
+  color: #fff;
+  border-radius: .5rem;
+}
+
+
+/* header */
+.header,
+.content {
+  /* position: relative; */
+  padding: 2rem;
+  margin: 1rem 2rem;
+  background: #fff;
+  box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.1);
+}
+.header {
+  display: flex;
+}
+.header img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin-right: 2rem;
+  padding-top: 1rem;
+}
+.sidebar {
+  padding-top: 0.5rem;
+}
+.sidebar p {
+  color: #808080;
+}
+.article {
+  margin-left: 3rem;
+}
+.tombol {
+  margin-top: 2rem;
+}
+.x {
+  margin: 1rem 0;
+  padding: 10px 30px;
+  background: var(--biru);
+  color: #fff;
+  border: var(--biru) 0.1rem solid;
+  border-radius: 0.5rem;
+}
+.x:hover{
+  background: #fff;
+  color: var(--biru);
+}
+.y {
+  margin: 1rem 0;
+  padding: 10px 20px;
+  background: #fff;
+  color: var(--biru);
+  border: var(--biru) 0.1rem solid;
+  border-radius: 0.5rem;
+}
+.y:hover{
+  background: var(--biru);
+  color: #fff;
+}
+table {
+  margin: 0 3rem;
+  border-spacing: .4rem;
+}
+
+
+
+
+/* form */
+.content form input,
+.content form select
+{
+  box-sizing : border-box;
+  width: 100%;
+  margin: .5rem 0;
+  padding: .4rem;
+}
+.content form label{
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.btnsub{
+  background: var(--biru);
+  border: none;
+  border-radius: .2rem;
+  color: #fff;
+  padding: .4rem;
+  font-weight: bold;
+}
+.btnsub:hover{
+  background: #fff;
+  color: var(--biru);
+  border: var(--biru) 0.1rem solid;
+}
